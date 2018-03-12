@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300');
+*{
+    
+}
+.bg-blue{
+    background: linear-gradient(#250d5a,#2f1764);
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+.content-mother{
+    margin-top: 200px;
+    margin-bottom:100px;
+}
+.small-top-space{
+    margin-top: 18px;
+}
+.white{
+    background: white;
+}
+.btn-iniciar{
+    color: white;
+    background: #2b58cf;
+    border: none;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    background: #2b58cf;
+    padding: 20px;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+.margin_auto{
+    margin: auto;
+}
+.remove-float{
+    float: none;
+}
+.content_width{
+    max-width: 430px;
+    padding:30px;
+}
+.bienvenido{
+    margin: auto;
+    font-family: 'Exo 2', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bienvenido .span-h1{
+    color: #2753c6;
+}
+.bienvenido .span-h3{
+    color: #250d5a;
+    font-family: 'Barlow', sans-serif;
+}
+.content_width h2{
+    padding-bottom: 30px;
+    font-size: 27px;
+    font-family: 'Barlow', sans-serif;
+    color: #250d5a;
+}
+
+.border-radius-8{
+    border-radius: 8px;
+}
+.display-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input-content{
+    display: flex;
+    height: 50px;
+    padding-bottom: 5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 7px;
+    border: 1px solid rgba(153, 153, 153, 0.54);
+    font-family: 'Exo 2', sans-serif;
+}
+.input-content img{
+    height: 23px;
+    margin-top:6px;
+    width: 23px;
+}
+.input-content-input{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border: none;
+    background: white;
+}
+.input-content-input:focus{
+    outline: none;
+}
+.input-content-submit{
+    height: 45px;
+    width: 100%;
+    background: #250d5a;
+    color: white;
+    border: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.forgot-pass{
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+}
+.forgot-pass a{
+    margin-left: 5px;
+}
+@media only screen and (min-width: 500px) {
+    .span-h1 {
+        font-size: 80px;
+    }
+    .span-h3 {
+        font-size: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .span-h1 {
+        font-size: 40px;
+    }
+    .span-h3 {
+        font-size: 15px;
+    }
+    .content_width{
+        margin-top: -100px;
+    }
+}
