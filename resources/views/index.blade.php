@@ -42,7 +42,7 @@
     
     </script>   
 </head>
-<body>
+<body style="background: red">
    <div class="bg-blue remove_float">
    </div>
     <div class="content-mother">

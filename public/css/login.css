@@ -4,7 +4,7 @@
     
 }
 .bg-blue{
-    background: linear-gradient(#250d5a,#2f1764);
+    background: rgba(0,0,0,0.8);
     height: 100vh;
     width: 100%;
     top: 0;
